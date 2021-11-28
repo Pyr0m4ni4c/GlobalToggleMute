@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="microphone-png-19991-Windows.ico" />
+    <Content Include="microphone-png-19991-Windows.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
