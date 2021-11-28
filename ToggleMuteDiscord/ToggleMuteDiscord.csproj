@@ -5,11 +5,16 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>microphone-png-19991-Windows.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Resources\Mutesound.wav" />
     <None Remove="Resources\Unmutesound.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="microphone-png-19991-Windows.ico" />
   </ItemGroup>
 
   <ItemGroup>
